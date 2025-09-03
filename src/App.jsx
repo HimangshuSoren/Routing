@@ -18,9 +18,9 @@ const App = () => {
     }
       <Routes>
         <Route element={<Navbar setBlur={setBlur} blur={blur} />}>
-        <Route element={<Home />} path='/' / >
-        <Route element={<Download />} path='/download' / >
-        <Route element={<NotFound/>} path='/*' />
+        <Route element={<Home />} index path='/Routing' / >
+        <Route element={<Download />} path='/Routing/download' / >
+        <Route element={<NotFound/>} path='/Routing/*' />
         </Route>
       </Routes>
 
